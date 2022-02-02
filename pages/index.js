@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Hero from "../components/Hero"
 import SkillsSection from "../components/SkillsSection"
+import OfferSection from "../components/OfferSection"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <OfferSection />
       <SkillsSection />
     </div>
   )
