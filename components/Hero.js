@@ -6,7 +6,7 @@ export default function Hero() {
         making his way through the web.
       </h1>
       <p>
-        Get in touch &nbsp;
+        This is the way &nbsp;
         <span className="underline decoration-emerald-400 decoration-2 transition ease-in-out delay-75 duration-300 hover:bg-emerald-400">
           allidjinoumichee@outlook.fr
         </span>
