@@ -6,7 +6,7 @@ export default function Blog() {
   return (
     <Layout>
       <Head>
-        <title>Blog - Michee Allidjinou</title>
+        <title>Blog - Michée Allidjinou</title>
         <meta
           name="description"
           content="Personal website of Michee Allidjinou"

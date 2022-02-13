@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col p-10">
       <Head>
-        <title>Michee Allidjinou</title>
+        <title>Michée Allidjinou</title>
         <meta
           name="description"
           content="Personal website of Michee Allidjinou"

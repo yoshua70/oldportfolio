@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <Layout>
       <Head>
-        <title>Projects - Michee Allidjinou</title>
+        <title>Projects - Michée Allidjinou</title>
         <meta
           name="description"
           content="Personal website of Michee Allidjinou"
