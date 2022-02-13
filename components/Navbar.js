@@ -3,6 +3,9 @@ import Link from "next/link"
 export default function Navbar() {
   return (
     <div className="flex items-center justify-end gap-4">
+      <Link href="/">
+        <a>Home</a>
+      </Link>
       <Link href="/blog">
         <a>Blog</a>
       </Link>
