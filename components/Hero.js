@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col min-h-screen items-start justify-center gap-4">
       <h1 className="text-5xl text-gray-400 font-thin leading-normal">
-        I'm an engineer, <br />
+        {`I'm`} an engineer, <br />
         making his way through the web.
       </h1>
       <p>
