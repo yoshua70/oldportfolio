@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar"
 
 export default function Home() {
   return (
-    <div className="flex flex-col pr-10 pl-10">
+    <div className="flex flex-col p-10">
       <Head>
         <title>Michee Allidjinou</title>
         <meta
