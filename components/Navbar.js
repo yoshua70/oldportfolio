@@ -1,7 +1,10 @@
 import Link from "next/link"
 import Image from "next/image"
 
+import { useTheme } from "next-themes"
+
 export default function Navbar() {
+  const { theme, setTheme } = useTheme()
   return (
     <div className="flex items-center justify-end gap-4">
       <Link href="/">
@@ -23,6 +26,9 @@ export default function Navbar() {
           />
         </a>
       </Link>
+      <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+        toggle
+      </button>
     </div>
   )
 }
