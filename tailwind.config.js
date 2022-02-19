@@ -4,6 +4,13 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  purge: {
+    enabled: true,
+    content: ["./pages/**/*.js", "./components/**/*.js"],
+    options: {
+      safelist: ["dark"],
+    },
+  },
   theme: {
     typography: (theme) => ({}),
     extend: {},
