@@ -27,7 +27,7 @@ export default function Navbar() {
         </a>
       </Link>
       <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-        toggle
+        {theme === "dark" ? "Light" : "Go dark"}
       </button>
     </div>
   )
